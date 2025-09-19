@@ -22,18 +22,26 @@ function TaskColumn({ status, title }) {
             setTasks([]); // fallback
         }
     }
-    
-    console.log("🚀 ~ TaskColumn ~ tasks:", tasks[0])
+
+    function classnameFunc() {
+        let t = title.replace(/\s/g, "");
+        return "task-column-title-" + t
+    }
+
+    console.log(classnameFunc());
+
     if(tasks) {
         return (
-        <>
-            <h2 className="task-column-title">{title}</h2>
+          <>
+            <h2 className="task-column-title">
+              <span className={classnameFunc()}>⬤</span> {title}
+            </h2>
             {tasks.length === 0 ? (
-                <p className="task-column-nth">No tasks here</p>
+              <p className="task-column-nth">No tasks here</p>
             ) : (
-                tasks.map((task) => <TaskCard key={task.id} task={task} />)
+              tasks.map((task) => <TaskCard key={task.id} task={task} />)
             )}
-        </>
+          </>
         );
     }
 }

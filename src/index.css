@@ -11,6 +11,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  margin-left: 1rem;
 }
 
 .toolbar {
@@ -54,4 +56,16 @@
   float:left; 
   margin:0; 
   width:33%;
+}
+.task-column-title {
+  font-size: large;
+}
+.task-column-title-ToDo {
+  color: #ed9dbe;
+}
+.task-column-title-Doing {
+  color: #9dbded;
+}
+.task-column-title-Done {
+  color: #b4ed9d;
 }
