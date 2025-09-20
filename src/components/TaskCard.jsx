@@ -5,7 +5,7 @@ function TaskCard({ task }) {
 
   function dateDisplay(isoDate) {
     const date = parseISO(isoDate);
-    return format(date, "EEEE do MMM");
+    return format(date, "EEEE do MMM 'at' HH:mm");
   }
 
   return (
