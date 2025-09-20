@@ -28,8 +28,6 @@ function TaskColumn({ status, title }) {
         return "task-column-title-" + t
     }
 
-    console.log(classnameFunc());
-
     if(tasks) {
         return (
           <>
