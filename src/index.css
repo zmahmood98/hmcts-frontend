@@ -42,6 +42,7 @@
   box-shadow: 5px 5px black;
 }
 
+
 .modal-background {
   position: fixed;
   top: 0;
@@ -109,6 +110,17 @@
   margin-right: 1rem;
   border-radius: 10px;
 }
+.task-more-button {
+  float: right;
+  background: none;
+  border: none;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 800;
+}
+.task-more-button:hover {
+  cursor: pointer;
+}
 .tc-todo .task-card {
   box-shadow: 5px 5px #ed9dbe;
 }
@@ -124,6 +136,10 @@
 }
 .task-card-desc {
   font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.task-card-date {
   margin-left: 20px;
   margin-right: 20px;
 }
