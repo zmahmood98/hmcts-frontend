@@ -16,12 +16,11 @@ function TaskColumn({ status, title }) {
             );
             if (!res.ok) throw new Error("Bad Response");
             const data = await res.json();
-            setTasks(data || []); // default to empty array if no tasks
+            setTasks(data || []);
             } catch (err) {
             console.error(err);
-            setTasks([]); // fallback
-        }
-    }
+            setTasks([]);
+    }}
 
     function classnameFunc() {
         let t = title.replace(/\s/g, "");

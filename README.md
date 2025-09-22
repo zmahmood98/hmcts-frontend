@@ -1,12 +1,32 @@
-# React + Vite
+# HMCTS React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- badges -->
+[![GitHub latest commit](https://img.shields.io/github/last-commit/zmahmood98/hmcts-frontend.svg)](https://github.com/zmahmood98/hmcts-frontend/commit/)
+[![GitHub forks](https://img.shields.io/github/forks/zmahmood98/hmcts-frontend.svg)](https://github.com/zmahmood98/hmcts-frontend)
 
-Currently, two official plugins are available:
+Frontend repo for the dts-developer-challenge. Backend project repo can be found [here](https://github.com/zmahmood98/hmcts-backend).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Installation & Usage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo `git clone git@github.com:zmahmood98/hmcts-frontend.git`
+2. Enter the directory `cd hmcts-frontend`
+3. Install dependencies `npm install`
+   
+* `npm run dev` to start the client server in development mode.
+
+### Technologies
+* Javscript
+* React
+* CSS
+
+## Remaining Bugs
+- [ ] 
+
+## Improvements & Future Features
+
+* Minor
+  * 
+* Major
+  * 
+
