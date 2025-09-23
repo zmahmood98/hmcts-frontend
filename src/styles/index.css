@@ -133,6 +133,11 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+.task-card-date-overdue {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(206, 28, 28);
+}
 
 .task-options-container {
   position: relative;
