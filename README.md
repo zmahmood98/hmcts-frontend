@@ -6,8 +6,17 @@
 
 Frontend repo for the dts-developer-challenge. Backend project repo can be found [here](https://github.com/zmahmood98/hmcts-backend).
 
+A simple Task Manager application built with **Node.js** and **React**.  
+It provides an easy to use UI for managing tasks (create, read, update, delete).  
 
-## Installation & Usage
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/en)
+
+### Installation & Usage
 
 1. Clone the repo `git clone git@github.com:zmahmood98/hmcts-frontend.git`
 2. Enter the directory `cd hmcts-frontend`
@@ -15,18 +24,15 @@ Frontend repo for the dts-developer-challenge. Backend project repo can be found
    
 * `npm run dev` to start the client server in development mode.
 
-### Technologies
-* Javscript
-* React
-* CSS
+---
 
-## Remaining Bugs
-- [ ] 
+## 🛠 Tech Stack
+- **Javscript**
+- **React**
+- **CSS**
 
-## Improvements & Future Features
+---
 
-* Minor
-  * 
-* Major
-  * 
+## 📌 Notes
+
 
