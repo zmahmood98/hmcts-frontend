@@ -13,7 +13,7 @@ function NewTaskModal({ onClose }) {
 
         let body;
 
-        if(description == "") {
+        if (description == "") {
             body = {
                 "title": title,
                 "status": status,
@@ -38,15 +38,16 @@ function NewTaskModal({ onClose }) {
                 body: JSON.stringify(body),
             });
 
-            console.log("🚀 ~ handleSubmit ~ res:", res);
-
-            if (!res.ok) throw new Error("Failed to create task");
+            if (!res.ok) {
+                const errorData = await res.json().catch(() => null);
+                throw new Error(errorData?.message || "Failed to create task");
+            }
 
             onClose();
             window.location.reload();
         } catch (err) {
             console.error(err);
-            setError("Failed to create task");
+            setError(err.message);
         }
     };
 
