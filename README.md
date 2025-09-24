@@ -30,5 +30,11 @@ It provides an easy to use UI for managing tasks (create, read, update, delete).
 - **React**
 - **CSS**
 
+---
 
-
+## 🛣 Roadmap
+- [ ] Deploy along with backend API for persistence of data
+- [ ] Add task sorting/filtering/search
+- [ ] Improve mobile responsiveness
+- [ ] Add user profile and login pages
+- [ ] Dark mode support
