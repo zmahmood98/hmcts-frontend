@@ -13,7 +13,7 @@ function TaskCard({ task }) {
 
   let date = new Date();
   let dueDate = parseISO(task.dueDate);
-  let taskDeadlineClassname = "task-card-date";
+  let taskDeadlineClassname = "";
 
   if (dueDate < date) {
     taskDeadlineClassname = "task-card-date-overdue";
@@ -42,8 +42,8 @@ function TaskCard({ task }) {
         <h5 className="task-card-desc">{task.description}</h5>
       )}
 
-      <h6 className={`${taskDeadlineClassname}`}>
-        Due by: {dateDisplay(task.dueDate)}
+      <h6 className="task-card-date">
+        Due by: <span className={`${taskDeadlineClassname}`}>{dateDisplay(task.dueDate)}</span>
       </h6>
     </div>
   );
