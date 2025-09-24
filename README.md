@@ -33,6 +33,7 @@ It provides an easy to use UI for managing tasks (create, read, update, delete).
 ---
 
 ## 🛣 Roadmap
+- [ ] Make Task Cards clickable, opening a modal containing the task details and allowing you to edit from there
 - [ ] Deploy along with backend API for persistence of data
 - [ ] Add task sorting/filtering/search
 - [ ] Improve mobile responsiveness
