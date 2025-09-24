@@ -21,8 +21,7 @@ It provides an easy to use UI for managing tasks (create, read, update, delete).
 1. Clone the repo `git clone git@github.com:zmahmood98/hmcts-frontend.git`
 2. Enter the directory `cd hmcts-frontend`
 3. Install dependencies `npm install`
-   
-* `npm run dev` to start the client server in development mode.
+4. `npm run dev` to start the client server in development mode.
 
 ---
 
@@ -31,8 +30,5 @@ It provides an easy to use UI for managing tasks (create, read, update, delete).
 - **React**
 - **CSS**
 
----
-
-## 📌 Notes
 
 
